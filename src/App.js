@@ -5,7 +5,7 @@ function App() {
   const [city, setCity] = useState("");
   const [report, setForecast] = useState("");
   
-  const apikey = "8b68837b82060e2732f2ffbeaec78fb5";
+  const apikey = "your-api";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`;
 
   useEffect(() => {
